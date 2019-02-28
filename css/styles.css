@@ -5,7 +5,7 @@ HTML5 display definitions
 ========================================================================== */
  
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
-@font-face {
+/* @font-face {
     font-family: 'Monopoly Bold';
     src: url("./assets/Monopoly Bold.ttf") format('truetype');
 }
@@ -13,6 +13,11 @@ HTML5 display definitions
 .font-monopoly {
 	font-family: 'Monopoly Bold'
 }
+
+html {
+	font-family: 'fontawsome !important';
+} */
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
