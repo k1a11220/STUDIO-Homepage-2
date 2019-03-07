@@ -118,7 +118,7 @@ $(window).load(function() {
 		}
 	});
 
-	$('#servicesSlider').flexslider({
+	$('.servicesSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
