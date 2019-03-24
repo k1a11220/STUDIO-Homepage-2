@@ -78,6 +78,16 @@
     background-position: 0px 90px; height: 100%;
 }
 
+.maykingBg { 
+    background: url('../img/maykingBg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 65px 0 300px 0;
+    height: auto; 
+}
+
 .mirrBg {
     background: url('../assets/main.mp4') no-repeat center center;
     -webkit-background-size: cover; -moz-background-size: cover;
